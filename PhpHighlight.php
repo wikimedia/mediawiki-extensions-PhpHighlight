@@ -14,8 +14,10 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'PHP highlight',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:PhpHighlight',
 	'author' => 'Alexandre Emsenhuber',
-	'description' => 'Adds a <code>&lt;php&gt;</code> tag to use the PHP syntax highlighter',
+	'descriptionmsg' => 'phphighlight-desc',
 );
+
+$wgMessagesDirs['PhpHighlight'] = __DIR__ . '/i18n';
 
 $wgHooks['ParserFirstCallInit'][] = 'efSetPhp';
 
