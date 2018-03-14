@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Les Meloures"
 		]
 	},
-	"phphighlight-desc": "Setzt en Tag <code>&lt;php&gt;</code> dobäi fir de PHP Syntax Highlighter ze benotzen"
+	"phphighlight-desc": "Setzt en Tag <code>&lt;php&gt;</code> derbäi fir de PHP Syntax Highlighter ze benotzen"
 }
