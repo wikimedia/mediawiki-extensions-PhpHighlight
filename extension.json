@@ -11,7 +11,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"PhpHighlightHooks": "PhpHighlight.hooks.php"
+		"PhpHighlightHooks": "PhpHighlightHooks.php"
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "PhpHighlightHooks::efSetPhp"

@@ -4,7 +4,7 @@
  * Extension that use the PHP syntax highlighter (php -s)
  *
  * @author Alexandre Emsenhuber
- * @license GPL v.2 or higher
+ * @license GPL-2.0-or-later
  */
 
 if ( function_exists( 'wfLoadExtension' ) ) {

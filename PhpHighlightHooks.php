@@ -2,15 +2,20 @@
 
 class PhpHighlightHooks {
 
-	static function efSetPhp( &$parser ){
+	/**
+	 * @param Parser &$parser
+	 */
+	static function efSetPhp( &$parser ) {
 		$parser->setHook( 'php', 'PhpHighlightHooks::efRenderPhp' );
-		return true;
 	}
 
 	/**
 	 * Callback
+	 *
+	 * @param string $text
+	 * @return string
 	 */
-	static function efRenderPhp( $text ){
+	static function efRenderPhp( $text ) {
 		$html = highlight_string( $text, true );
 		return str_replace( '<br>', "<br>\n", $html );
 	}
