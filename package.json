@@ -1,4 +1,5 @@
 {
+	"name": "PhpHighlight",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
