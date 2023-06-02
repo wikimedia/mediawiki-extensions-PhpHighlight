@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"phphighlight-desc": "Ajoute une balise <code>&lt;php&gt;</code> pour utiliser la mise en valeur syntaxique PHP"
+	"phphighlight-desc": "Ajoute une balise <code>&lt;php&gt;</code> pour utiliser la mise en valeur de la syntaxe de PHP"
 }
