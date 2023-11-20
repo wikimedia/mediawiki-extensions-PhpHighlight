@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"phphighlight-desc": "Voegt een <code>&lt;php&gt;</code>-tag om de PHP-syntaxiskleuring te gebruiken"
+}
