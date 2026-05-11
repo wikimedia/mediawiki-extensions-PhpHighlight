@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kelly Hsueh",
 			"Kly"
 		]
 	},
-	"phphighlight-desc": "添加 <code>&lt;php&gt;</code> 標籤來使用 PHP 語法突顯"
+	"phphighlight-desc": "添加 <code>&lt;php&gt;</code> 標籤來使用 PHP 語法醒目標示"
 }
